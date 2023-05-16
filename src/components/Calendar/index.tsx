@@ -7,7 +7,7 @@ import {
   CalendarHeader,
   CalendarTitle,
 } from './styles'
-import { getWeekDays } from '@/src/utils/get-week-days'
+import { getWeekDays } from '../../utils/get-week-days'
 
 export function Calendar() {
   const shortWeekDays = getWeekDays({ short: true })
